@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.dark-mode .form-control {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.dark-mode .btn {
+    background-color: #6c757d;
+    color: #f8f9fa;
+}
+
+#textCounts {
+    font-size: 16px;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+/* Ensure responsiveness and spacing */
+@media (max-width: 767.98px) {
+    .btn {
+        flex: 1 1 100%;
+        margin-bottom: 0.5rem;
+    }
+}
